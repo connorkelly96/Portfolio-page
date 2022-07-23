@@ -56,6 +56,7 @@ header {
 
   .hero {
     background-image: url("../images/hero-bg.jpg");
+    height: 600px;
     background-size: cover;
     background-position: center;    
     display: flex;
@@ -65,3 +66,43 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     }
+
+    .section {
+        padding: 60px;
+    }
+
+    .content {
+        background: #58cc87c7;
+    }
+
+    .content h2 {
+        font-size: 55px;
+        color: #da9e16;
+        margin-bottom: 35px;
+        padding: 0 100px 20px 100px;
+        border-bottom: 3px solid;
+        border-color: #39a6b2;    
+    }
+
+    
+.primary-border {
+    border-color: #3f19d8;
+  }
+  
+  .secondary-border {
+    border-color: #39a6b2;
+  }
+
+  .content-info {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 5px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+
