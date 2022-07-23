@@ -14,3 +14,54 @@ header {
     background-position: 80%;
     z-index: 9999;
   }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #d819d0;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header a {
+    text-decoration: none;
+    color: #da9e16;
+  }
+
+  header nav {
+    margin: 7px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  } 
+
+  header nav ul li a:hover {
+    background: #07dceb;
+    color: #da9e16;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+  .hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    }
