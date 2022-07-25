@@ -66,41 +66,28 @@
     background-size: cover;
     background-position: center;    
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
     }
 
-    .section {
-        margin: 50px auto;
-        padding-bottom:
-
+    .content {
+        margin: 0;
     }
 
     .content {
         background: #11dad0c7;
     }
 
-    .content h2 {
-        font-size: 55px;
-        color: #da9e16;
-        margin-bottom: 35px;
-        padding: 0 100px 20px 100px;
-        border-bottom: 3px solid;
-        border-color: #39a6b2;    
+    .content p, .content ul {
+        color: #8819c9;
+        font-size: 23px;
     }
-
     
-.primary-border {
-    border-color: #3f19d8;
-  }
-  
-  .secondary-border {
-    border-color: #39a6b2;
-  }
-
+    .content li {
+        color: #eb07a7;
+        font-size: 20px;
+    }
+    
   .information {
     margin: auto;
     padding-bottom: 50px;
@@ -112,39 +99,19 @@
     justify-content: space-between;
   }
 
-.information-info {
-    flex: 2 70%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .information h3 {
     color: #da9e16;
     font-size: 46px;
     margin-top: 10px;
-    flex: 1 30%;
-}
-
-.information-text {
-    flex: 12;
 }
 
 .info h4 {
     font-size: 26px;
     line-height: 1.5;
     color: #3f19d8;
+    text-align: right;
   }
 
-.content p, .content ul {
-    color: #8819c9;
-    font-size: 23px;
-}
-
-.content li {
-    color: #eb07a7;
-    font-size: 20px;
-}
 
 footer{
     background: #475758;
@@ -157,3 +124,60 @@ footer h1 {
     
 }
 
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+
+footer h1 {
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+     .information {
+        flex: 1 100%;
+        justify-content: center;
+      }
+
+      .information h3 {
+        width: 100%;
+        text-align: center;
+      }
+
+      .information h4 {
+        font-size: 20px;
+        text-align: center;
+      }
+
+      .information ul {
+        text-align: center;
+        font-size: 20px;
+      }
+
+      .information li {
+        text-align: center;
+        font-size: 18px;
+      }
+      .info {
+        text-align: center;
+      }
+
+}
