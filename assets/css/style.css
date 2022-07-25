@@ -1,4 +1,10 @@
-header {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+    header {
     padding: 20px 35px;
     background-color: #39a6b2;
     display: flex;
@@ -18,7 +24,7 @@ header {
   header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #d819d0;
+    color: #3f19d8;
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
@@ -48,10 +54,10 @@ header {
   } 
 
   header nav ul li a:hover {
-    background: #07dceb;
+    background: #0775eb;
     color: #da9e16;
     border-radius: 15px;
-    text-shadow: none;
+    text-shadow: 0 0 10px rgba (0, 0,0, 0.5);
   }
 
   .hero {
@@ -68,11 +74,13 @@ header {
     }
 
     .section {
-        padding: 60px;
+        margin: 50px auto;
+        padding-bottom:
+
     }
 
     .content {
-        background: #58cc87c7;
+        background: #11dad0c7;
     }
 
     .content h2 {
@@ -93,16 +101,59 @@ header {
     border-color: #39a6b2;
   }
 
-  .content-info {
-    margin: 50px auto;
+  .information {
+    margin: auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 5px solid #39a6b2;
+    border-bottom: 5px solid #b28e39;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
 
+.information-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+.information h3 {
+    color: #da9e16;
+    font-size: 46px;
+    margin-top: 10px;
+    flex: 1 30%;
+}
+
+.information-text {
+    flex: 12;
+}
+
+.info h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #3f19d8;
+  }
+
+.content p, .content ul {
+    color: #8819c9;
+    font-size: 23px;
+}
+
+.content li {
+    color: #eb07a7;
+    font-size: 20px;
+}
+
+footer{
+    background: #475758;
+    width: 100%;
+    padding: 40px 35px; 
+}
+
+footer h1 {
+    color: #da9e16;
+    
+}
 
