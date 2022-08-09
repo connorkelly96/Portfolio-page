@@ -115,8 +115,8 @@
     border: 5px solid blue;
     font-size: 20px;
     background-image: url("../images/work1-bg.jpg");
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     line-height: 2;
     font-weight: bold;
     position: relative;
@@ -124,8 +124,8 @@
 }
 
 #work1:hover {
-    width: 350px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
 }
 
 #work2 {
