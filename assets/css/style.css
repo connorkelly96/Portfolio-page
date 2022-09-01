@@ -141,9 +141,28 @@
 }
 
 #work2:hover {
-    width: 350px;
-    height: 250px;
+  width: 350px;
+  height: 250px;
 }
+
+#work3 {
+  border: 5px solid blue;
+  font-size: 20px;
+  background-image: url("../images/work3-bg.jpg");
+  width: 300px;
+  height: 200px;
+  line-height: 2;
+  font-weight: bold;
+  position: relative;
+  display: flex;  
+}
+
+#work3:hover {
+  width: 350px;
+  height: 250px;
+}
+
+
 
 .work1 p {
 color: rgb(239, 9, 9);
