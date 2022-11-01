@@ -162,6 +162,23 @@
   height: 250px;
 }
 
+#work4 {
+  border: 5px solid blue;
+  font-size: 20px;
+  background-image: url("../images/work4-bg.jpg");
+  width: 300px;
+  height: 200px;
+  line-height: 2;
+  font-weight: bold;
+  position: relative;
+  display: flex; 
+}
+
+#work4:hover {
+  width: 350px;
+  height: 250px;
+}
+
 
 
 .work1 p {
